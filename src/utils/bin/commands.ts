@@ -35,7 +35,7 @@ Welcome to my live terminal!
 More about me:
 'sumfetch' - short summary.
 'readme' - my github readme.
-'resume' - instead of my latest resume, will point you to my website.`;
+'running' - my runs.`;
 };
 
 export const resume = async (args: string[]): Promise<string> => {
@@ -89,6 +89,18 @@ export const bing = async (args: string[]): Promise<string> => {
 export const reddit = async (args: string[]): Promise<string> => {
   window.open(`https://www.reddit.com/search/?q=${args.join(' ')}`);
   return `Searching reddit for ${args.join(' ')}...`;
+};
+
+export const running = async (args: string[]): Promise<string> => {
+  window.open(`${config.running}`);
+  return `Alright I will stalk you...\n
+  Well, what's your strava?\n
+  Type 'strava'`;
+};
+
+export const strava = async (args: string[]): Promise<string> => {
+  window.open(`https://www.strava.com/athletes/${config.social.strava}`);
+  return `Well, now you need to follow me...`;
 };
 
 // Typical linux commands
@@ -157,6 +169,7 @@ Type 'help' to see the list of available commands.
 Type 'sumfetch' to display summary.
 Type 'poem' to discover a Chinese poem.
 Type 'weather {city}' to check the weather for any city.
+Type 'running' to check out my running page.
 Type 'about' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.aboutMe}" target="_blank">here</a></u> to learm more.
 `;
 };
