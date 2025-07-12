@@ -122,6 +122,19 @@ or
 你看得懂吗`;
 };
 
+export const ll = async (args: string[]): Promise<string> => {
+  return `total 24
+-rw-r--r--  1 yer1k  staff   1024 Dec 21 09:02  a
+-rw-r--r--  1 yer1k  staff   2048 Dec 21 09:47  bunch
+-rw-r--r--  1 yer1k  staff   4096 Dec 21 10:11  of
+-rw-r--r--  1 yer1k  staff    768 Dec 21 11:35  fake
+-rw-r--r--  1 yer1k  staff   1536 Dec 21 12:06  directories
+-rw-r--r--  1 yer1k  staff    512 Dec 21 13:54  or
+-rw-r--r--  1 yer1k  staff    128 Dec 21 15:27  你看得懂吗`;
+};
+
+
+
 export const cd = async (args: string[]): Promise<string> => {
   return `unfortunately, i cannot afford more directories.
 if you want to help, you can type 'repo'.`;
@@ -162,7 +175,7 @@ export const banner = (args?: string[]): string => {
    ░░███    ░███████  ░███ ░░░  ░███  ░██████░  
     ░███    ░███░░░   ░███      ░███  ░███░░███ 
     █████   ░░██████  █████     █████ ████ █████
-   ░░░░░     ░░░░░░  ░░░░░     ░░░░░ ░░░░ ░░░░░ 
+   ░░░░░     ░░░░░░  ░░░░░     ░░░░░ ░░░░ ░░░░░    who is this?
                                                 
 
 Type 'help' to see the list of available commands.
