@@ -1,21 +1,18 @@
 {
-  "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
-  "title": "LiveTerm",
-  "name": "John Doe",
-  "ascii": "liveterm",
+  "readmeUrl": "https://raw.githubusercontent.com/Yer1k/Yer1k/main/README.md",
+  "about_me": "https://yer1k.com/",
+  "title": "Yer1k",
+  "name": "Dingkun Yang",
+  "ascii": "yer1k",
   "social": {
-    "github": "github",
-    "linkedin": "linkedin"
+    "github": "Yer1k",
+    "linkedin": "dyang7"
   },
-  "email": "contact@email.com",
-  "ps1_hostname": "liveterm",
+  "email": "yer1k@outlook.com",
+  "ps1_hostname": "yer1k",
   "ps1_username": "visitor",
-  "repo": "https://github.com/Cveinnt/LiveTerm",
-  "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
-  "donate_urls": {
-    "paypal": "https://paypal.me/cveinnt",
-    "patreon": "https://patreon.com/cveinnt"
-  },
+  "repo": "https://github.com/Yer1k/LiveTerm",
+  "running": "https://running.yer1k.com/",
   "colors": {
     "light": {
       "background": "#FBF1C9",
