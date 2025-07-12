@@ -3,7 +3,7 @@ import config from '../../../config.json';
 const sumfetch = async (args: string[]): Promise<string> => {
   if (config.ascii === 'yer1k') {
     return `                                                  
-             @@@@@@@@@@@@@                   sumfetch: summary display
+             @@@@@@@@@@@@@                   yer1k: summary display
         @@@@               @@@@             -----------
       @@                       @@            ABOUT
     @@                           @@          ${config.name}
@@ -16,7 +16,7 @@ const sumfetch = async (args: string[]): Promise<string> => {
   @@           @@        @@        @@        <u><a href="https://github.com/${config.social.github}" target="_blank">github.com/${config.social.github}</a></u>
    @@             @@@@@@          @@         <u><a href="https://linkedin.com/in/${config.social.linkedin}" target="_blank">linkedin.com/in/${config.social.linkedin}</a></u>
      @@@                        @@@         -----------
-        @@@                  @@@ @@         🏃 Running Page 
+        @@@                  @@@ @@         🏃 RUNNING PAGE 
          @|  @@@@@@@@@@@@@@@@   @@          🚀 <u><a href="${config.running}" target="_blank">${config.running}</a></u>
          @|                      @@         
 
@@ -36,7 +36,7 @@ const sumfetch = async (args: string[]): Promise<string> => {
 ▐▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓        <u><a href="https://github.com/${config.social.github}" target="_blank">github.com/${config.social.github}</a></u>
    ▓▓      ▐▓▓    ▓▓    ▐▓▓     ▓▓           <u><a href="https://linkedin.com/in/${config.social.linkedin}" target="_blank">linkedin.com/in/${config.social.linkedin}</a></u>
     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓           -----------
-      ▓▓▓   ▐▓▓   ▓▓   ▓▓▓   ▓▓▀            🏃 Running Page  
+      ▓▓▓   ▐▓▓   ▓▓   ▓▓▓   ▓▓▀            🏃 RUNNING PAGE  
         ▀▓▓▄▄ ▀▓▓▄▓▓▄▓▓▓▄▄▓▓▀               🚀 <u><a href="${config.running}" target="_blank">${config.running}</a></u>
             ▀▓▓▓▓▓▓▓▓▓▓▓▀▀                  
 
