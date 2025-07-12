@@ -9,7 +9,7 @@ const sumfetch = async (args: string[]): Promise<string> => {
     @@                           @@          ${config.name}
   @@                               @@       ﰩ ${config.ps1_hostname}
  @@                         @@@     @@       <u><a href="${config.aboutMe}" target="_blank">about me</a></u>
-@@        @@@                        @@     爵 <u><a href="${config.readmeUrl}" target="_blank">read me</a></u>
+@@        @@@                        @@     爵 <u><a href="https://www.strava.com/athletes/${config.social.strava}" target="_blank">strava</a></u>
 @@                                   @@     -----------
 @@             .@@@@@@@@@@.          @@      CONTACT 
  @@           @@          @@        @@       <u><a href="mailto:${config.email}" target="_blank">${config.email}</a></u>
@@ -21,6 +21,7 @@ const sumfetch = async (args: string[]): Promise<string> => {
          @|                      @@         
 
 `;
+
   } else {
     return `
            ▄▓▓▓▓▓▓▓▓▓▓▓▓▓▓▄                  yer1k
@@ -28,7 +29,7 @@ const sumfetch = async (args: string[]): Promise<string> => {
       ▓▓▀  ▄▓▀   ▐▓▓  ▀▓▓    ▓▓▄             ABOUT
     ▄▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓            ${config.name}
    ▓▓     ▓▓▓    ▐▓▓    ▐▓▓     ▓▓           <u><a href="${config.aboutMe}" target="_blank">about me</a></u>
-▐▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓       爵 <u><a href="${config.readmeUrl}" target="_blank">read Me</a></u>
+▐▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓       爵 <u><a href="https://www.strava.com/athletes/${config.social.strava}" target="_blank">strava</a></u>
 ▐▓                                 ▐▓       -----------
 ▐▓             > YER1K.            ▐▓        CONTACT 
 ▐▓                                 ▐▓        <u><a href="mailto:${config.email}" target="_blank">${config.email}</a></u>
