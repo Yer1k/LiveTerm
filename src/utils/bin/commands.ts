@@ -31,7 +31,7 @@ export const repo = async (args: string[]): Promise<string> => {
 // About
 export const about = async (args: string[]): Promise<string> => {
   return `Hi, I am ${config.name}. 
-Welcome to my website!
+Welcome to my live terminal!
 More about me:
 'sumfetch' - short summary.
 'readme' - my github readme.
@@ -39,7 +39,7 @@ More about me:
 };
 
 export const resume = async (args: string[]): Promise<string> => {
-  window.open(`${config.about_me}`);
+  window.open(`${config.aboutMe}`);
   return 'How about we start with "About Me" ...';
 };
 
@@ -136,7 +136,7 @@ export const emacs = async (args?: string[]): Promise<string> => {
 };
 
 export const sudo = async (args?: string[]): Promise<string> => {
-  window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank'); // ...I'm sorry
+  window.open('https://youtu.be/Y-xkxNW4N4E', '_blank'); // ...I'm sorry
   return `Permission denied: with little power comes... no responsibility? `;
 };
 
@@ -155,6 +155,8 @@ export const banner = (args?: string[]): string => {
 
 Type 'help' to see the list of available commands.
 Type 'sumfetch' to display summary.
-Type 'about_me' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.about_me}" target="_blank">here</a></u> to learm more.
+Type 'poem' to discover a Chinese poem.
+Type 'weather {city}' to check the weather for any city.
+Type 'about' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.aboutMe}" target="_blank">here</a></u> to learm more.
 `;
 };

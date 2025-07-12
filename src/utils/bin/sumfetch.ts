@@ -8,7 +8,7 @@ const sumfetch = async (args: string[]): Promise<string> => {
       @@                       @@            ABOUT
     @@                           @@          ${config.name}
   @@                               @@       ﰩ ${config.ps1_hostname}
- @@                         @@@     @@       <u><a href="${config.about_me}" target="_blank">about me</a></u>
+ @@                         @@@     @@       <u><a href="${config.aboutMe}" target="_blank">about me</a></u>
 @@        @@@                        @@     爵 <u><a href="${config.readmeUrl}" target="_blank">read me</a></u>
 @@                                   @@     -----------
 @@             .@@@@@@@@@@.          @@      CONTACT 
@@ -27,7 +27,7 @@ const sumfetch = async (args: string[]): Promise<string> => {
         ▄▓▓▀ ▄▓▓▀▓▓▓▀▓▓▄ ▀▀▓▓▄              -----------
       ▓▓▀  ▄▓▀   ▐▓▓  ▀▓▓    ▓▓▄             ABOUT
     ▄▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓            ${config.name}
-   ▓▓     ▓▓▓    ▐▓▓    ▐▓▓     ▓▓           <u><a href="${config.about_me}" target="_blank">about me</a></u>
+   ▓▓     ▓▓▓    ▐▓▓    ▐▓▓     ▓▓           <u><a href="${config.aboutMe}" target="_blank">about me</a></u>
 ▐▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓       爵 <u><a href="${config.readmeUrl}" target="_blank">read Me</a></u>
 ▐▓                                 ▐▓       -----------
 ▐▓             > YER1K.            ▐▓        CONTACT 

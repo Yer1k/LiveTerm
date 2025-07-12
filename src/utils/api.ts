@@ -22,9 +22,9 @@ export const getWeather = async (city: string) => {
   }
 };
 
-export const getQuote = async () => {
+export const getPoem = async () => {
   const { data } = await axios.get('https://v1.jinrishici.com/all.json');
   return {
-    quote: `“${data.content}” — ${data.origin} · ${data.author}`,
+    poem: `“${data.content}” — ${data.origin} · ${data.author}`,
   };
 };
